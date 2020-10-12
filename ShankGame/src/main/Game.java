@@ -20,9 +20,11 @@ public class Game implements Runnable {
 
     private BufferStrategy bs;
     private Graphics g;
-
-    private BufferedImage testImage;
-    private SpriteSheet sheet;
+     
+    //Not used variables
+    
+    //private BufferedImage testImage;
+    //private SpriteSheet sheet;
 
     public Game(String title, int width, int height) {
         this.width = width;
